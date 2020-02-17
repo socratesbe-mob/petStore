@@ -2,7 +2,7 @@
   "name": "petstore",
   "version": "1.0.0",
   "description": "API petStore",
-  "main": "index.js",
+  "main": "petStore.js",
   "scripts": {
     "test": "echo \"test\""
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/socratesbe-mob/petStore/issues"
   },
-  "homepage": "https://github.com/socratesbe-mob/petStore#readme"
+  "homepage": "https://github.com/socratesbe-mob/petStore#readme",
+  "devDependencies": {
+    "serverless": "^1.63.0"
+  }
 }
