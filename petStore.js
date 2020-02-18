@@ -5,7 +5,7 @@ exports.listPets = async (event) => {
         body: JSON.stringify(
         {
         message: 'getPet API',
-        names: ['Tom','Jerry','Spike'],
+        names: ['Tom','Jerry','Spike','Bob'],
         date: new Date()
         }
             
